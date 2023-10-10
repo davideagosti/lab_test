@@ -4,7 +4,7 @@ pipeline {
        stage('Stage 1') {
          steps {
          echo 'Ciao a tutti!!!!'
-            sh hostname
+            sh 'hostname'
          }
      }
    }
